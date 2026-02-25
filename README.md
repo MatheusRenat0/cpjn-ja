@@ -1,4 +1,4 @@
-# Consulta Profissional de CNPJ
+# Consulta de CNPJ-JA
 
 Um sistema *full-stack* desenvolvido para consultar dados de empresas através do CNPJ, consumindo a **BrasilAPI**. 
 
@@ -19,7 +19,7 @@ Este projeto foi construído com foco em **boas práticas de arquitetura**, sepa
 **API Externa:**
 * [BrasilAPI](https://brasilapi.com.br/) (Dados abertos do Brasil)
 
-## ✨ Funcionalidades e Diferenciais Técnicos
+## Funcionalidades e Diferenciais Técnicos
 
 * **Arquitetura Modular:** Backend estruturado utilizando *Blueprints* do Flask para escalabilidade e organização de rotas.
 * **Validação e UX no Frontend:** Campo de input com aplicação de máscara automática (`00.000.000/0001-00`) utilizando Expressões Regulares (Regex) e bloqueio de caracteres inválidos.
@@ -76,5 +76,5 @@ npm run dev
 O aplicativo abrirá no seu navegador (geralmente em `http://localhost:5173`).
 
 ---
-*Desenvolvido com dedicação e foco em Clean Code.* 💡
+
 
