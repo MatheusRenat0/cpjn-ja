@@ -4,7 +4,7 @@ from services.brasilapi import buscar_dados_cnpj
 
 cnpj_bp = Blueprint('cnpj', __name__)
 
-@cnpj_bp.route('/<cnpj_input>', methods=['GET'])
+@cnpj_bp.route('/<path:cnpj_input>', methods=['GET'])
 def consultar(cnpj_input):
     cnpj_limpo = limpar_cnpj(cnpj_input)
     
